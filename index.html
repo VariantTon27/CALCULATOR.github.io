@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>CALCULATOR JS</title>
+    <link rel="icon" type="image/svg+xml" href="icons8-calculator.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet"> 
+  </head>
+  <body class="justify-center items-center flex flex-col bg-gradient-to-r from-black-500 from-10% via-sky-500 via-30% to-black-500 to-90%">
+    
+  
+    <div id="container" class=" justify-center items-center p-12 ">
+      
+      <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+      <div id="calculator" class=" border-doub le border-8 border-black-600 bg-gradient-to-r from-black-500 to-blue-500  p-6 rounded-md shadow-lg grid grid-cols-4 gap-3 " style="width:50vh">
+       
+        <input type="text" id="inputBox" class="col-span-4  text-right py-6 px-6 rounded-lg border border-gray-300 mb-3 text-2xl font-bold" placeholder="0" />
+           
+                
+
+                <button id="button operator" class="py-2 rounded-md text-2xl text-black font-bold bg-yellow-400 hover:bg-yellow-500 h-14 ">%</button>
+                <button id="button operator" class="py-2 rounded-md text-2xl text-white font-bold bg-red-500 hover:bg-red-600   h-14 ">DEL</button>
+                <button id="button operator" class="col-span-2 py-2 rounded-md text-2xl text-white font-bold bg-orange-500 hover:bg-blue-600  h-14 ">AC</button>               
+                <button id="button operator" class="py-2 rounded-md text-2xl text-black font-bold bg-yellow-400 hover:bg-yellow-500  h-14">/</button>
+                <button id="button" class="py-2 rounded-md text-2xl text-yellow-500 font-bold bg-gray-800 hover:bg-gray-900">7</button>
+                <button id="button" class="py-2 rounded-md text-2xl text-yellow-500 font-bold bg-gray-800 hover:bg-gray-900">8</button>
+                <button id="button" class="py-2 rounded-md text-2xl text-yellow-500 font-bold bg-gray-800 hover:bg-gray-900">9</button>
+                <button id="button operator" class="py-2 rounded-md text-2xl text-black font-bold bg-yellow-400 hover:bg-yellow-500  h-14">x</button>
+                <button id="button" class="py-2 rounded-md text-2xl text-yellow-500 font-bold bg-gray-800 hover:bg-gray-900">4</button>
+                <button id="button" class="py-2 rounded-md text-2xl text-yellow-500 font-bold bg-gray-800 hover:bg-gray-900">5</button>
+                <button id="button" class="py-2 rounded-md text-2xl text-yellow-500 font-bold bg-gray-800 hover:bg-gray-900">6</button>
+                <button id="button operator" class="py-2 rounded-md text-2xl text-black font-bold bg-yellow-400 hover:bg-yellow-500  h-14">-</button>
+                <button id="button" class="py-2 rounded-md text-2xl text-yellow-500 font-bold bg-gray-800 hover:bg-gray-900">1</button>
+                <button id="button" class="py-2 rounded-md text-2xl text-yellow-500 font-bold bg-gray-800 hover:bg-gray-900">2</button>
+                <button id="button" class="py-2 rounded-md text-2xl text-yellow-500 font-bold bg-gray-800 hover:bg-gray-900">3</button>
+                <button id="button operator" class="py-2 rounded-md text-2xl text-black font-bold bg-yellow-400 hover:bg-yellow-500 h-14">+</button>
+                <button id="button" class="py-2 rounded-md text-2xl text-yellow-500 font-bold bg-gray-800 hover:bg-gray-900">00</button>
+                <button id="button" class="col-span-2 py-2 text-2xl rounded-md text-yellow-500 font-bold bg-gray-800 hover:bg-gray-900">0</button>            
+                <button id="button" class="py-2 rounded-md text-2xl text-black font-bold bg-yellow-400 hover:bg-black-500  h-14" >√</button>
+                <button id="button" class="py-2 rounded-md text-2xl text-yellow-500 font-bold bg-gray-800 hover:bg-gray-900" >.</button>
+                <button id="button equalBtn" class="col-span-2 py-2 rounded-md text-2xl text-white font-bold bg-green-500 hover:bg-green-600">=</button>
+                
+           
+      </div>
+    </div>
+    <div class="grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
+      <img class="relative inline-block h-14 w-13 rounded-lg object-cover object-center" alt="Image placeholder" src="washington.jpg"><div class="w-full md:w-7/12 pt-5 px-4 mb-8 mx-auto text-center">
+                  <div class="text-sm text-gray-700 py-1">
+                  This components requires
+                  <a
+                      href="https://www.material-tailwind.com?ref=tailwindcomponents"
+                      class="text-gray-700 font-semibold"
+                      target="_blank"
+                      >Material Tailwind CSS & JS</a
+                  >
+                  for the classes. <br /><br />
+                  A component by<a
+                      href="https://www.creative-tim.com?ref=tailwindcomponents"
+                      class="text-gray-700 font-semibold"
+                      target="_blank"
+                  >
+                     Washington M. Aguilar </a
+                  >.
+                  </div>
+              </div>
+            </div>
+    <script src="script.js"></script>
+  </body>
+</html>
